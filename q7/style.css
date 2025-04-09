@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/jonatan-pie.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .login-wrapper {
+    width: 400px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    position: relative;
+    margin: 1rem 0;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+  }
+  .input-field:hover {
+    border-color: #fff;
+  }
+  .input-field i {
+    position: absolute;
+    top: 17px;
+    left: 5px;
+    color: #fff;
+    padding: 0 0.5rem;
+  }
+  
+  .input-field input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .input-field input::placeholder {
+    color: rgba(251, 248, 248, 0.541);
+    padding-left: 3px;
+  }
+  
+  .login-wrapper a {
+    color: #efefef;
+    text-decoration: none;
+  }
+  
+  .login-wrapper a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3 ease;
+  }
+  
+  button:hover {
+    border-color: #fff;
+  }
+  
+  .social-media-login p {
+    color: #fff;
+  }
+  
+  .social-media-btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  .social-media-btn {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3 ease;
+  }
+  
+  .social-media-btn:hover {
+    border-color: #fff;
+  }
+  
+  .social-media-btn i {
+    margin-right: 10px;
+  }
